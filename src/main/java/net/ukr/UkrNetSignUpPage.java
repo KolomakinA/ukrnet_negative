@@ -20,33 +20,33 @@ public class UkrNetSignUpPage {
 
 
 
-        @FindBy(id = "LJgfS")
-        private WebElement mailPass;
-        @FindBy(id = "b6dxY")
-        private WebElement mailPassConf;
-        @FindBy(id = "Wphdu")
-        private WebElement uFName;
-        @FindBy(id = "HL0np")
-        private WebElement uLName;
-        @FindBy(id = "birth-day")
-        private WebElement uBDay;
-        @FindBy(id = "birth-month")
-        private WebElement uBMonth;
-        @FindBy(id = "birth-year")
-        private WebElement uBYear;
-        @FindBy(id = "sex-1")
-        private WebElement uSexIsMale;
-        @FindBy(id = "yhQ0k")
-        private WebElement senderCreds;
-        @FindBy(id = "w7Lgb")
-        private WebElement backupMail;
-        @FindBy(id = "Wq23b")
-        private WebElement phoneNumb;
-        @FindBy(xpath = "/html/body/main/section[2]/button/strong")
-        private WebElement sendCodeToThePhoneNumb;
-        @FindBy(xpath = "/html/body/footer/button")
-        private WebElement signUpButton;
-
+//         @FindBy(id = "LJgfS")
+//         private WebElement mailPass;
+//         @FindBy(id = "b6dxY")
+//         private WebElement mailPassConf;
+//         @FindBy(id = "Wphdu")
+//         private WebElement uFName;
+//         @FindBy(id = "HL0np")
+//         private WebElement uLName;
+//         @FindBy(id = "birth-day")
+//         private WebElement uBDay;
+//         @FindBy(id = "birth-month")
+//         private WebElement uBMonth;
+//         @FindBy(id = "birth-year")
+//         private WebElement uBYear;
+//         @FindBy(id = "sex-1")
+//         private WebElement uSexIsMale;
+//         @FindBy(id = "yhQ0k")
+//         private WebElement senderCreds;
+//         @FindBy(id = "w7Lgb")
+//         private WebElement backupMail;
+//         @FindBy(id = "Wq23b")
+//         private WebElement phoneNumb;
+//         @FindBy(xpath = "/html/body/main/section[2]/button/strong")
+//         private WebElement sendCodeToThePhoneNumb;
+//         @FindBy(xpath = "/html/body/footer/button")
+//         private WebElement signUpButton;
+//         Apparently, ukr.net is generating random names and ids for elements, so those items are useless
 
         //--------------------------------------------------------------------------------------------------------------
 
