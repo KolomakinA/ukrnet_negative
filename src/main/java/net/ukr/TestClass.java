@@ -37,9 +37,6 @@ public class TestClass {
 
     @Test(priority=1)
     public void negLoginIsTaken() throws InterruptedException {
-        //driver.get("http://www.ukr.net");
-        //UkrNetLoginPage page = PageFactory.initElements(driver,UkrNetLoginPage.class);
-        //page.loginToSystem("admin", "pass");
         Assert.assertEquals(signUp.negLoginIsTakken("admin"), true,"\n ERROR: \"Login is already taken\" message is not displayed \n");
         signUp.clearLoginField();
     }
